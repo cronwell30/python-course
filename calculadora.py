@@ -13,16 +13,14 @@ num2=float(input('Digite el segundo numero:'))
 
 if opcion=='s':
   reusltado=num1+num2
-  print(reusltado)
+  print(f'La respuesta es {reusltado}')
 elif opcion=='r':
   reusltado=num1-num2
-  print(reusltado)
+  print(f'La respuesta es {reusltado}')
 elif opcion=='m':
   reusltado=num1*num2
-  print(reusltado)
+  print(f'La respuesta es {reusltado}')
 elif opcion=='d':
   reusltado=num1/num2
-  print(reusltado)
-else:
-  print('Seleccione una opcion correcta')
+  print(f'La respuesta es {reusltado}')
   
