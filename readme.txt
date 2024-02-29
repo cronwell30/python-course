@@ -1,0 +1,1 @@
+En este repocitorio se subiran los ejersiocios de el curso de python 
