@@ -7,4 +7,4 @@ haya seleccionado:  1
 
 n = int(input('Digita un numero entero: '))
 for i in range(n):
-    print('#'*(i+1))
+    print('1'*(i+1))
