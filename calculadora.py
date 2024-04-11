@@ -5,22 +5,37 @@ solicitar valor 1 y valor 2
 Mostrar el resultado de la operacion
 Finalizar el programa'''
 
-print('\tMENU\nS:sumar \nR:restar \nM:multiplicar \nD:dividir')
-opcion=str(input('Selecione una upcion de menu: '))
+print('\tMUENU''\nS:sumar''\nR:restar''\nM:multiplicar''\nD:dividir')
 
-num1=float(input('Digite el primer numero: '))
-num2=float(input('Digite el segundo numero:'))
+flag=True
+#opcion= str(input('Seleccione una opcion de menu: ')).lower()
 
-if opcion=='s':
-  reusltado=num1+num2
-  print(f'La respuesta es {reusltado}')
-elif opcion=='r':
-  reusltado=num1-num2
-  print(f'La respuesta es {reusltado}')
-elif opcion=='m':
-  reusltado=num1*num2
-  print(f'La respuesta es {reusltado}')
-elif opcion=='d':
-  reusltado=num1/num2
-  print(f'La respuesta es {reusltado}')
-  
+while flag == True:
+  opcion= str(input('Seleccione una opcion de menu: ')).lower()
+
+  if opcion == 'salir':
+    break
+
+  if opcion == 's':
+    num1=float(input('Digite el primer numero: '))
+    num2=float(input('Digite el segundo numero: '))
+    suma = num1+num2
+    print(suma)
+
+  if opcion == 'r':
+    num1=float(input('Digite el primer numero: '))
+    num2=float(input('Digite el segundo numero: '))
+    resta = num1-num2
+    print(resta)
+
+  if opcion == 'm':
+    num1=float(input('Digite el primer numero: '))
+    num2=float(input('Digite el segundo numero: '))
+    multiplicacion = num1*num2
+    print(multiplicacion)
+
+  if opcion == 'd':
+    num1=float(input('Digite el primer numero: '))
+    num2=float(input('Digite el segundo numero: '))
+    divicion = num1/num2
+    print(divicion)
