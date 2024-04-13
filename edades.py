@@ -13,7 +13,7 @@ for i in range (10):
     if edad <= 17:
         menor.append(edad)
         
-    elif edad >= 18 :
+    elif edad >= 18 and edad <= 100 :
         mayor.append(edad)
     else:
         print('Digite una edad correcta')
